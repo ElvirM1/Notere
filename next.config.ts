@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true, 
-  swcMinify: true,
+  reactStrictMode: true,
   experimental: {
-    optimizeCss: true, 
+    optimizeCss: true,
   },
 };
 

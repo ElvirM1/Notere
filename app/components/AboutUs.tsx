@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";  
 
 const AboutUs = () => {
   return (
@@ -8,9 +9,11 @@ const AboutUs = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-center md:space-x-12 space-y-8 md:space-y-0">
           <div className="md:w-1/2 w-full shadow-xl rounded-lg overflow-hidden transform transition duration-500 ease-in-out hover:scale-105">
-            <img
+            <Image
               src="/rreth-nesh.jpg"
               alt="Zyra Noteriale"
+              width={500}  
+              height={300}
               className="w-full h-full object-cover rounded-lg hover:brightness-75 transition duration-500 ease-in-out"
             />
           </div>

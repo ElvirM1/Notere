@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { MapPin, Mail, Phone, Menu, X } from "lucide-react";
 
-// Funksioni që do të kthejë faqen në fillim
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
@@ -15,7 +14,7 @@ const Header = () => {
       <nav className="w-full px-6 py-5 flex items-center justify-between">
         <div 
           className="text-3xl font-bold text-[#4a0638] flex-grow cursor-pointer"
-          onClick={scrollToTop} // Klikimi mbi emrin kthen faqen ne fillim
+          onClick={scrollToTop} 
         >
           Notere Qendresa Muriqi Mekaj
         </div>

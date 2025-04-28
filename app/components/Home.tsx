@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image"; 
 
 const Home = () => {
   return (
@@ -8,7 +7,7 @@ const Home = () => {
       id="home"
       className="h-screen bg-cover bg-center flex items-center justify-center relative"
       style={{
-        backgroundImage: "url('/background-ballina.jpg')", 
+        backgroundImage: "url('/background-ballina.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>

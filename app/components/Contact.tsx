@@ -1,3 +1,4 @@
+"use client";
 import React, { useRef } from "react";
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
@@ -36,7 +37,7 @@ const Contact = () => {
           toast.success("Mesazhi u dërgua me sukses!");
           formRef.current?.reset();
         },
-        (error: unknown) => { 
+        (error: unknown) => {
           if (error instanceof Error) {
             toast.error("Ndodhi një gabim gjatë dërgimit: " + error.message);
           } else {
@@ -82,7 +83,7 @@ const Contact = () => {
             </motion.div>
 
             <div className="text-lg text-gray-700 mb-2 text-center">
-              <span className="font-bold">Adresa:</span> Sheshi ''Haxhi Zeka'' Rr.,'' Toni Bleri '' 25, Pejë 30000
+              <span className="font-bold">Adresa:</span> Sheshi &quot;Haxhi Zeka&quot; Rr. &quot;Toni Bleri&quot; 25, Pejë 30000
             </div>
             <div className="text-lg text-gray-700 mb-2 text-center">
               <span className="font-bold">Telefon:</span> +383 49 246 332
