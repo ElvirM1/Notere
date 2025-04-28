@@ -30,9 +30,9 @@ const Footer = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
         <div className="flex flex-col items-start gap-4 relative">
           <p className="text-lg font-semibold text-gray-700">Notere Qendresa Muriqi Mekaj</p>
-          <p className="text-sm text-gray-500">Copyright © 2025 All rights reserved</p>
+          <p className="text-sm text-gray-500">Copyright &copy; 2025 All rights reserved</p>
           <p className="text-sm text-gray-600 italic">
-            "Crafted by <span className="text-blue-600">Elvir Software Engineer & Developer"</span>
+            &quot;Crafted by <span className="text-blue-600">Elvir Software Engineer & Developer&quot;</span>
           </p>
         </div>
 

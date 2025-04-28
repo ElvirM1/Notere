@@ -1,4 +1,3 @@
-"use client";
 import React, { useRef } from "react";
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
@@ -37,8 +36,12 @@ const Contact = () => {
           toast.success("Mesazhi u dërgua me sukses!");
           formRef.current?.reset();
         },
-        (error) => {
-          toast.error("Ndodhi një gabim gjatë dërgimit: " + error.text);
+        (error: unknown) => { 
+          if (error instanceof Error) {
+            toast.error("Ndodhi një gabim gjatë dërgimit: " + error.message);
+          } else {
+            toast.error("Ndodhi një gabim gjatë dërgimit!");
+          }
         }
       );
   };

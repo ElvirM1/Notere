@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image"; 
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       id="home"
       className="h-screen bg-cover bg-center flex items-center justify-center relative"
       style={{
-        backgroundImage: "url('/background-ballina.jpg')",
+        backgroundImage: "url('/background-ballina.jpg')", 
       }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -20,7 +21,7 @@ const Home = () => {
         <div className="w-1/4 mx-auto border-t-4 border-[#4a0638] mb-6"></div>
 
         <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 animate__animated animate__fadeIn animate__delay-2s">
-          Shërbime profesionale noteriale me përkushtim, saktësi dhe korrektësi. Jemi këtu për t'ju ndihmuar në çdo hap ligjor.
+          Shërbime profesionale noteriale me përkushtim, saktësi dhe korrektësi. Jemi këtu për t&apos;ju ndihmuar në çdo hap ligjor.
         </p>
 
         <a
