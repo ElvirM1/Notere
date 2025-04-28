@@ -36,7 +36,7 @@ const AboutUs = () => {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Me përvojë dhe etikë profesionale, jemi këtu për t'ju ndihmuar në çdo hap, duke ju garantuar shërbim cilësor dhe korrektësi të lartë.
+                Me përvojë dhe etikë profesionale, jemi këtu për t&apos;ju ndihmuar në çdo hap, duke ju garantuar shërbim cilësor dhe korrektësi të lartë.
               </p>
             </div>
           </div>
